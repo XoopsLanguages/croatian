@@ -1,0 +1,59 @@
+<div class="outer" id="help-template">
+<h1 class="head">Pomoć: Postavke</h1>
+<h4 class="odd">Opis</h4>
+<p class="even">
+        Ploče s preferencijama mjesto su gdje konfigurirate svoje postavke za cijelu web-lokaciju. Vrijedno je odvojiti vrijeme da ih prođete jer neke postavke mogu imati značajan utjecaj na izvedbu, sigurnost i jednostavnost korištenja vaše stranice.
+    </p>
+<h4 class="odd">Opće postavke</h4>
+<p class="even">
+        Ovo su najvažnije postavke kojima se najčešće pristupa. Vi ćete postaviti naziv stranice i slogan za svoju web stranicu. Također ćete odabrati zadanu temu i administrativno korisničko sučelje. A ako trebate raditi na svojoj web stranici, možete je zatvoriti za sve korisnike. Također možete postaviti Module-wide Cache
+        puta.
+    </p>
+<h4 class="odd">Meta oznake i podnožje</h4>
+<p class="even">
+        Meta oznake pružaju informacije o vašim informacijama – one opisuju prirodu vaše web stranice. Njihova je glavna upotreba pomoći tražilicama i njihovim robotima da ispravno indeksiraju vašu web stranicu, tj. pomoći pravim ljudima da je pronađu. Podaci koje navedete uključeni su u zaglavlje svake web stranice
+        stranici. Treba predstavljati sadržaj stranice kao cjeline - meta informacije su iste na svakoj stranici, trenutno se ne mogu prilagoditi za različite module ili stranice.<br/><br/>
+
+        Budite svjesni da glavne tražilice koriste različite strategije za indeksiranje web stranica. Oni mogu dati različite težine meta oznakama ili ih čak potpuno zanemariti. Pažljivo korištenje metainformacija može pomoći vašem web-mjestu da dobije bolje rangiranje u tražilicama, a korisno je tražiti ih
+        informacije o strategijama indeksiranja vaših dominantnih referera (pogledajte datoteku dnevnika svoje web stranice). To vam može pomoći da optimizirate svoje meta informacije ili druge aspekte dizajna i sadržaja vaše web stranice kako biste poboljšali svoje rangiranje. <br/><br/>
+
+        Pokušajte biti točni i pošteni u pružanju meta informacija. Ne pokušavaj '<em>manipulirati</em>’ tražilicama za postizanje boljeg ranga – one bi mogle prepoznati ovo ponašanje i vaša bi stranica mogla biti vraćena ili stavljena na crnu listu iz njihovog indeksa.
+
+        <br/><br/>The <strong>Meta Autorska prava</strong> i <strong>Podnožje</strong> polja podržavaju dvije zamjenske oznake radi pojednostavljenja održavanja.
+        <br/> - <strong>{X_SITEURL}</strong> bit će zamijenjen punim URL-om glavne stranice vaše web-lokacije.
+        <br/> - <strong>{X_YEAR}</strong> bit će zamijenjeno trenutnom godinom od četiri znamenke. Uklanja potrebu ažuriranja gornjeg datuma autorskih prava svake godine.
+    </p>
+<h4 class="odd">Mogućnosti cenzuriranja riječi</h4>
+<p class="even">
+        XOOPS može automatski cenzurirati nepoželjne riječi koje mogu objaviti posjetitelji vaše stranice i zamijeniti ih generičkim, alternativnim izrazom po vašem izboru. Funkcija cenzure troši neke sistemske resurse i može donekle usporiti vašu stranicu. Onemogućeno je prema zadanim postavkama.<br/><br/>
+
+        Za provedbu cenzure na vašoj stranici odaberite '<em>omogući</em>’ radio gumb. Morate unijeti popis neželjenih riječi u '<em>riječi za cenzuru</em>’ okvir, odvajajući ih crtom. Ova funkcija ne razlikuje velika i mala slova. Unesite odgovarajući zamjenski pojam u '<em>zamijeniti
+            loše riječi sa</em>’ okvir. Zadana vrijednost je #OOPS#.
+
+    </p>
+<h4 class="odd">Opcije pretraživanja</h4>
+<p class="even">
+        Mogućnost pretraživanja jedan je od najvažnijih alata za lociranje informacija na web stranici portala. XOOPS pretraživanje kategorizira rezultate po modulu – zapisi se identificiraju kao vijesti, preuzimanja, veze ili druge vrste prema modulima koje ste instalirali. <br/><br/>
+
+        Globalna pretraživanja svih resursa na vašoj stranici omogućena su prema zadanim postavkama. Ako onemogućite globalna pretraživanja, ova mogućnost više neće biti dostupna, a blok pretraživanja postat će nefunkcionalan.
+        Zadana minimalna duljina ključne riječi za pretraživanje je pet znakova. Svi termini koji su kraći bit će zanemareni. Ovo je korisno za kontrolu preciznosti pretraživanja, iako nije mnogo korisno za pojmove poput "karte web mjesta". Kratke ključne riječi češće su, pa imaju tendenciju vraćanja više
+        broj zapisa, od kojih mnogi mogu biti irelevantni. Dulje ključne riječi imaju tendenciju dohvaćanja manje zapisa, ali s višim stupnjem preciznosti.<br/><br/>
+
+        Pretraživanje je relativno skupo u računalnim terminima i stoga će isključivanje kratkih termina smanjiti opterećenje poslužitelja. Ipak, imajte na umu da je ponekad korisno imati mogućnost pretraživanja na kraći rok.
+
+    </p>
+<h4 class="odd">Postavljanje e-pošte</h4>
+<p class="even">
+        Ovaj odjeljak upravljačke ploče koristi se za konfiguraciju vaše e-pošte za sustav. Preporuča se da metodu isporuke e-pošte ostavite na zadanoj postavci “PHP (pošta)”. Ne morate ispuniti polja Sendmail ili SMTP osim ako ne koristite alternativnu opciju isporuke e-pošte.
+    </p>
+<h4 class="odd">Opcije provjere autentičnosti</h4>
+<p class="even">
+        Samo ga ostavite u bazi podataka Xoops i možete zanemariti sve ostale opcije tamo.<br/><br/>
+
+        LDAP ili Microsoft Active Directory poslužitelji dodani su za provjeru autentičnosti kao alternativa uobičajenim Xoops korisnicima. Razlog je taj što u mnogim tvrtkama već imate korisničku bazu podataka u ADS-u ili LDAP-u i oni to mogu koristiti za prijavu na XOOPS i ne moraju registrirati još jedan račun.
+    </p>
+<h4 class="odd">Postavke modula sustava</h4>
+<p class="even">
+        Ovdje možete aktivirati/deaktivirati svaki od odjeljaka Sustava, kao i odrediti zadane postavke za cijeli sustav, npr. za broj prikazanih avatara ili slika po stranici. Također možete odabrati zadani uređivač za blokove, komentare i za sve module.
+    </p>
+</div>

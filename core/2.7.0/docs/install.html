@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Upute za instalaciju XOOPS-a</title>
+<meta content="XOOPS" name="keywords"/>
+<meta content="XOOPS installation guide" name="description"/>
+<style type="text/css">
+        body {
+            font-family:                        Lucida Grande, Verdana, Geneva, Sans-serif;
+            margin:                             0;
+            padding:                            0;
+            font-size:                          13px;
+            color:                              #333;
+            background-color:                   #fff;
+        }
+
+        a {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+            font-weight:                        normal;
+        }
+
+        a:visited {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+        }
+
+        a:hover {
+            color:                              #3D9DD3;
+            text-decoration:                    none;
+            background-color:                   transparent;
+        }
+
+        .page {
+            background-color:                   #fff;
+            margin:                             10px 30px 0;
+            padding:                            0;
+        }
+
+        .page h1 {
+            background-color:                   transparent;
+            border-bottom:                      1px solid #999;
+            color:                              #000;
+            font-size:                          18px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h2 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          16px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h3 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          14px;
+            font-weight:                        bold;
+        }
+
+        .page ul {
+            margin:                             20px 0 15px 0;
+        }
+
+        .page li {
+            margin-bottom:                      9px;
+        }
+
+        .page li p {
+            margin-left:                        0;
+            margin-right:                       0;
+        }
+
+        p {    }
+
+    </style>
+</head>
+<body>
+<div class="page">
+<h1>Instaliranje XOOPS-a</h1>
+<h2>Prva instalacija</h2>
+<h3>Predgovor:</h3>
+<p>
+<abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> je open-source
+        Objektno orijentirani web izdavački sustav napisan u PHP-u. Idealan je alat za
+        razvoj malih do velikih dinamičnih web stranica zajednice, portala unutar tvrtke, korporativnih portala, weblogova i još mnogo toga.
+    </p>
+<p>
+        XOOPS je objavljen pod uvjetima
+        <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU Opća javna licenca (GPL)</a>
+        verzija 2 ili novija, te se može besplatno koristiti i mijenjati.
+        Besplatna je redistribucija sve dok se pridržavate uvjeta distribucije GPL-a.
+    </p>
+<h2>Zahtjevi</h2>
+<ul>
+<li>WWW poslužitelj (<a href="http://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external" s="">NGINX</a>, IIS, itd.)</li>
+<li><a href="https://www.php.net/" rel="external">PHP</a> 8.2 ili noviji, preporučuje se 8.4+</li>
+<li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.7 .8 ili noviji, preporučuje se MySQL 8.4.5+</li>
+</ul>
+<h3>Prije instalacije</h3>
+<ol>
+<li>Ispravno postavite WWW poslužitelj, PHP i poslužitelj baze podataka.</li>
+<li>Pripremite bazu podataka za svoju XOOPS stranicu.</li>
+<li>Pripremite korisnički račun i dopustite korisniku pristup bazi podataka.</li>
+<li>Omogućite upisivanje u direktorije i datoteke: %s</li>
+<li>Iz sigurnosnih razloga, preporučujemo da premjestite dva direktorija ispod iz <a href="http://phpsec.org/projects/guide/3.html" rel="external">korijen dokumenta</a> i promijenite nazive mapa: %s</li>
+<li>Stvorite (ako već nije prisutan) i omogućite upisivanje u direktorije: %s</li>
+<li>Uključite cookie i JavaScript u pregledniku.</li>
+</ol>
+<h2>Instalira se lokalno</h2>
+<p>Ako koristite lokalno okruženje za razvoj ili testiranje, provjerite imate li prethodno
+    ispunjeni zahtjevi. Kada to učinite, kopirajte sadržaj datoteke <em>htdocs</em> imenik (iz XOOPS
+    distribucijsku datoteku) na stazu korijenskog dokumenta vašeg web okruženja. Nakon što se datoteke tamo kopiraju,
+    možete započeti instalaciju usmjeravanjem preglednika na "http://<em>vasasite.com</em>". Ovo će pokrenuti proces instalacije.
+</p>
+<h2>Instaliranje na hostiranu platformu</h2>
+<p>Ako radite u hostiranom okruženju, raspakirajte XOOPS datoteke lokalno ili na poslužitelju ako imate
+    shell (tj. SSH) pristup. Kada završite, svakako premjestite ili kopirajte sve XOOPS datoteke iz <em>htdocs</em>
+    direktorij u vaš korijenski web direktorij (vaš pružatelj usluga obično daje ovu lokaciju s uputama).
+    Nakon što se datoteke tamo kopiraju, možete započeti instalaciju usmjeravanjem preglednika na
+    "http://<em>vasasite.com</em>". Ovo će pokrenuti proces instalacije.
+</p>
+<h2>Nastavak instalacije</h2>
+<p>Samo slijedite upute korak po korak u programu za instalaciju.</p>
+</div>
+</body>
+</html>

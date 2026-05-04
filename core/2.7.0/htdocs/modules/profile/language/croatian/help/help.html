@@ -1,0 +1,50 @@
+<div class="outer" id="help-template">
+<h1 class="head">Pomoć: <a class="ui-corner-all tooltip" href="&lt;{$xoops_url}&gt;/modules/profile/admin/index.php" title="Back to the Administration of Profile"> Profil <img alt="Back to the Administration of Profile" src="&lt;{xoAdminIcons 'home.png'}&gt;"/></a></h1>
+ -----Sadržaj pomoći ---------- 
+<h4 class="odd">OPIS</h4>
+<p class="even">Modul Profile služi za upravljanje prilagođenim poljima korisničkog profila.</p>
+<h4 class="odd">INSTALIRAJ/DEINSTALIRAJ</h4>
+<p>Nisu potrebne posebne mjere, slijedite standardni postupak instalacije – izvucite mapu /profile u direktorij ../modules. Instalirajte modul kroz Admin -&gt; System Module -&gt; Modules.</p>
+<p>Detaljne upute o instaliranju modula dostupne su u <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Operations Manual">XOOPS operativni priručnik</a> <br/><br/></p>
+<h4 class="odd">UPUTE ZA UPOTREBU</h4>
+<p class="even">Za postavljanje ovog modula trebate:</p>
+<ul>
+<li>Konfigurirajte svoje postavke za modul (pogledajte ‘Postavke’) i po izboru blok profila ako ga namjeravate koristiti (pogledajte ‘Blokovi’).</li>
+<li>Uredite postojeće kategorije ili dodajte nove.</li>
+<li>Uredite postojeća polja ili dodajte nova. Ovdje možete odrediti koja će polja biti vidljiva u kojoj kategoriji i hoće li biti vidljiva tijekom registracije korisnika.</li>
+<li>Definirajte redoslijed koraka registracije.</li>
+<li>I konačno, možete postaviti dopuštenja za pojedinačna polja - koja se mogu uređivati, a koja pretraživati.<br/><br/></li>
+</ul>
+<h4 class="odd">Mjere protiv spama</h4>
+<p class="even">Kako biste smanjili neželjene registracije, učinite sljedeće:</p>
+<ul>
+<li> idite na modul Protector u Adminu, idite na Preferences, a zatim na dnu, na ovu opciju:
+
+            "Stop Forum Spam"
+            Provjerava POST podatke protiv spamera registriranih u bazi podataka www.stopforumspam.com. <br/>
+            Postavi na "Zabrani IP (bez ograničenja)"
+        </li>
+<br/>
+<li> u /class/captcha/config.php provjerite je li način rada postavljen kao "text":<br/><br/>
+<span style="font-style: italic;">     return $config = array(<br/>
+    'disabled' =&gt; false, // Onemogući CAPTCHA<br/>
+    'mode' =&gt; 'text', // default mode, možete odabrati 'text', 'image', 'recaptcha' (zahtijeva api ključ)<br/>
+    'name' =&gt; 'xoopscaptcha', // captcha naziv<br/>
+    'skipmember' =&gt; true, // Preskoči CAPTCHA provjeru za članove<br/>
+    'maxattempts' =&gt; 10, // Maksimalni broj pokušaja za svaku sesiju<br/>
+    );</span></li>
+<br/>
+<li> U modulu Profile idite na Administrator i na Osnovni korak koji se nalazi na:<br/>
+
+            /modules/profile/admin/step.php?id=1<br/>
+
+            postavite "Spremi nakon zaustavljanja" na "Ne"
+        </li>
+<br/><br/>
+<li> U postavkama profila postavite opciju "Koristi Captcha nakon drugog koraka registracije" na "Da" (to je zadana)</li>
+<br/>
+<ul>
+<h4 class="odd">TUTORIAL</h4>
+<p class="even">Udžbenik uskoro.<br/></p>
+ -----Sadržaj pomoći ---------- 
+</ul></ul></div>

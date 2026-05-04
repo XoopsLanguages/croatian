@@ -11,7 +11,7 @@
  * @version		$Id: hrvatski.php 1138 21.1.2011 11:42 sadistiko $
  */
 /*
- * Assocated with editor_registry.php
+ * Associated with editor_registry.php
  */
 // Name of the editor
 define("_XOOPS_EDITOR_TINYMCE","TinyMCE");
