@@ -1,0 +1,80 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    hr
+ * _CHARSET     UTF-8
+ */
+define('_MI_SYSTEM_NAME', 'Sustav');
+define('_MI_SYSTEM_DESC', 'Za administraciju osnovnih postavki stranice.');
+define('_MI_SYSTEM_BNAME2', 'Korisnički izbornik');
+define('_MI_SYSTEM_BNAME3', 'Prijava');
+define('_MI_SYSTEM_BNAME4', 'Traži');
+define('_MI_SYSTEM_BNAME5', 'Sadržaj na čekanju');
+define('_MI_SYSTEM_BNAME6', 'Glavni izbornik');
+define('_MI_SYSTEM_BNAME7', 'Informacije o stranici');
+define('_MI_SYSTEM_BNAME8', 'Tko je online');
+define('_MI_SYSTEM_BNAME9', 'Najaktivniji objavljači');
+define('_MI_SYSTEM_BNAME10', 'Novi članovi');
+define('_MI_SYSTEM_BNAME11', 'Nedavni komentari');
+define('_MI_SYSTEM_BNAME12', 'Opcije obavijesti');
+define('_MI_SYSTEM_BNAME13', 'Teme');
+define('_MI_SYSTEM_ADMENU1', 'Banneri');
+define('_MI_SYSTEM_ADMENU2', 'Blokovi');
+define('_MI_SYSTEM_ADMENU3', 'Grupe');
+define('_MI_SYSTEM_ADMENU5', 'Moduli');
+define('_MI_SYSTEM_ADMENU6', 'Postavke');
+define('_MI_SYSTEM_ADMENU7', 'Emotikoni');
+define('_MI_SYSTEM_ADMENU9', 'Rangovi korisnika');
+define('_MI_SYSTEM_ADMENU10', 'Uredi korisnika');
+define('_MI_SYSTEM_ADMENU11', 'Email korisnicima');
+define('_MI_SYSTEM_ADMENU12', 'Pronađi korisnike');
+define('_MI_SYSTEM_ADMENU13', 'Slike');
+define('_MI_SYSTEM_ADMENU14', 'Avatari');
+define('_MI_SYSTEM_ADMENU15', 'Predlošci');
+define('_MI_SYSTEM_ADMENU16', 'Komentari');
+define('_MI_SYSTEM_PREFERENCE_BREAK_GENERAL', 'Opće postavke');
+define('_MI_SYSTEM_PREFERENCE_TIPS', 'Pomoć na internetu?');
+define('_MI_SYSTEM_PREFERENCE_TIPS_DSC', 'Ovo vam daje savjete i online pomoć');
+define('_MI_SYSTEM_PREFERENCE_ICONS', 'Ikone');
+define('_MI_SYSTEM_PREFERENCE_BREADCRUMB', 'Mrvica kruha');
+define('_MI_SYSTEM_PREFERENCE_BREAK_ACTIVE', 'Aktivna sekcija');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_AVATARS', 'Aktivni avatari');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BANNERS', 'Aktivni banneri');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BLOCKSADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_COMMENTS', 'Aktivni komentari');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_FILEMANAGER', 'Active File Manager');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_GROUPS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_IMAGES', 'Upravitelj aktivnih slika');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAILUSERS', 'Aktivni korisnici e-pošte');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MODULESADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_PREFERENCES', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_SMILIES', 'Aktivni smajlići');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_TPLSETS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERRANK', 'Aktivni rang korisnika');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERS', 'Aktivni korisnici');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAINTENANCE', 'Aktivno održavanje');
+define('_MI_SYSTEM_PREFERENCE_BREAK_PAGER', 'Broj redaka za prikaz u administraciji');
+define('_MI_SYSTEM_PREFERENCE_AVATARS_PAGER', 'Broj avatara za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_BANNERS_PAGER', 'Broj bannera za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_PAGER', 'Broj komentara za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_GROUPS_PAGER', 'Broj grupa za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_IMAGES_PAGER', 'Broj slika za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_SMILIES_PAGER', 'Broj smajlića za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_USERRANKS_PAGER', 'Broj rangova za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_USERS_PAGER', 'Broj korisnika za prikaz po stranici');
+define('_MI_SYSTEM_PREFERENCE_BREAK_EDITOR', 'Postavke uređivača');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR', 'Uređivač za blokove:');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR', 'Uređivač za komentare:');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR', 'Uređivač za sve module:');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_ANONPOST', '');
+define('_MI_SYSTEM_PREFERENCE_REDIRECT', '');
+define('_MI_SYSTEM_PREFERENCE_JQUERY_THEME', 'jQuery tema');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE', 'Privremeno onemogući');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL', 'E-mail');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_PM', 'Privatna poruka');
+define('_MI_SYSTEM_MENUS_ACTIVE', 'Omogući sustav izbornika');
+define('_MI_SYSTEM_MENUS_ACTIVE_DESC', 'Omogućite ugrađeni sustav upravljanja izbornikom za navigaciju web-stranice');
