@@ -1,0 +1,36 @@
+<div class="outer" id="help-template">
+<h1 class="head">Pomoć: Predlošci</h1>
+<h4 class="odd">Opis</h4>
+<p class="even">
+        XOOPS dopušta određeno odvajanje između stvarne prezentacije stranice ("<em>koža</em>” ili korisničko sučelje) i kod koji se izvodi pozadi. Prvim upravlja sofisticirani mehanizam temeljen na grafičkim temama. Tema može uključivati, u svom osnovnom obliku, osnovni HTML
+        predloške koji definiraju vizualno sučelje stranice, kao i stilske listove i slike potrebne za nadopunu tog vizualnog sučelja. Teme se mogu mijenjati u administrativnom sučelju, tako da je promjena cjelokupnog izgleda XOOPS stranice samo stvar promjene vrijednosti
+        selektora i klikom na “Prihvati”. XOOPS također pruža administratorima web mjesta mogućnost da dopuste korisnicima da biraju između nekih dostupnih tema.<br/><br/>
+
+        Općenito govoreći, a <strong><em>tema</em></strong> je vizualni okvir web-mjesta visoke razine: tema definira, na primjer, opći izgled web-mjesta; s druge strane, obično ne definira specifičnu distribuciju sadržaja unutar bloka. Ovim se bavi a
+        drugačiji entitet zvan a <em><strong>set predložaka</strong></em>. Set šablona<em> </em>je skup HTML predložaka koji definiraju prezentaciju sadržaja unutar svih blokova koji tvore XOOPS web mjesto. Ako želimo jasniju metaforu za ovo, mogli bismo reći da je tema kao
+        arhitekt kuće, dok je set predložaka poput dekoratera interijera. Prvi postavlja zidove i definira opću distribuciju, ali drugi je zadužen za “<em>odijevanje</em>” ti zidovi.<br/><br/>
+
+        Ako je aktivna tema jednostavna koja uključuje samo datoteku teme, CSS datoteke i neke slike, XOOPS koristi zadani skup predložaka za definiranje prezentacije blokova. Međutim, neke su složene teme dovoljno sofisticirane da uključuju vlastiti skup predložaka. U ovom slučaju, mjesto
+        administrator mora koristiti administrativno sučelje za postavljanje i teme i skupa predložaka. <br/><br/>
+
+        Kakva je tema <em>magija</em> ostvareno? Odnosno, kako HTML predlošci mogu uključivati ​​dinamički sadržaj? To se ne radi pomoću ogledala i dima, već pomoću pametnog mehanizma predložaka tzv
+        <strong><a href="https://www.smarty.net/" rel="external">Pametno</a></strong> to čini funkciju onoga što se nekad zvalo
+        <em><strong>interpolacija varijable</strong></em>. Jednostavnije rečeno, mogli bismo reći da XOOPS sustav koristi PHP datoteke za držanje logike modula (pristup bazi podataka, dodjela varijabli, upravljanje pravima...), HTML datoteke s umetnutim Smarty varijablama za upravljanje
+        stvarno vizualno sučelje i Smarty motor za umetanje vrijednosti i nizova na određena mjesta unutar HTML-a koji izgrađuje stranice koje vidi krajnji korisnik. Sve u svemu, što vam to znači može se lako sažeti: zahvaljujući svom sustavu temiranja, XOOPS dizajnerima web stranica omogućuje izgradnju više
+        zanimljive i vizualno zadivljujuće stranice bez puno brige o tome što se događa ispod haube.
+    </p>
+<h4 class="odd">Kloniranje i preuzimanje skupova predložaka</h4>
+<p class="even">
+        Ako želite stvoriti prilagođeni skup predložaka, možete napraviti kopiju zadanog skupa (ili bilo kojeg drugog) odabirom '<em>klon</em>’ (od vas će se tražiti da novom skupu date naziv). Za razliku od zadanog, drugi skupovi predložaka mogu se slobodno uređivati. Također možete spremiti kopiju a
+        predložak postavljen na disk odabirom '<em>preuzimanje</em>’ ili ga uklonite pomoću ‘<em>izbriši</em>’ veza. Također možete ponekad vidjeti dodatni "<em>Generiraj</em>’ pored novih modula za koje predlošci još nisu izrađeni.
+    </p>
+<h4 class="odd">Uređivanje predložaka</h4>
+<p class="even">
+        Možete vidjeti potpuni popis dostupnih predložaka pregledavanjem stabla direktorija. Kada odaberete predložak, XOOPS će ga otvoriti u editoru gdje ga možete uređivati. <br/><br/>
+
+        Tijekom uređivanja predložaka morate omogućiti postavku koja automatski ažurira .tpl datoteke predloška modula ako postoje novije datoteke u direktoriju teme/vaša tema/predlošci za trenutnu temu (Modul sustava -&gt; Postavke -&gt; Opće postavke -&gt; Ažuriraj datoteke .tpl predloška modula
+        iz direktorija teme/vaša tema/predlošci? -&gt; '<em>Da</em>’). Ovo bi trebalo isključiti kada stranica postane javna.<br/><br/>
+        Ako slučajno zabrljate predložak, ne zaboravite da možete dohvatiti '<em>dobro</em>’ kopirajte iz zadanog skupa predložaka. Ako radite s nestandardnim predlošcima, možda bi bilo dobro spremiti kopiju na disk prije nego što ih počnete mijenjati.
+
+    </p>
+</div>
